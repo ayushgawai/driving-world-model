@@ -1,0 +1,194 @@
+{
+  "horizons": {
+    "1": {
+      "latent_mse": 0.3152383267879486,
+      "bev_iou": 0.0
+    },
+    "5": {
+      "latent_mse": 0.2710226271301508,
+      "bev_iou": 0.0
+    },
+    "15": {
+      "latent_mse": 0.20034507475793362,
+      "bev_iou": 0.0
+    }
+  },
+  "benchmark": {
+    "expert": {
+      "route_completion": 0.4633016580834249,
+      "collision": 0.0,
+      "offroad": 0.2,
+      "jerk": 0.14159217495725657,
+      "progress": 83.39429845501647,
+      "per_scenario": {
+        "cruise": {
+          "route_completion": 0.4836495307782947,
+          "collision": 0.0,
+          "offroad": 0.0
+        },
+        "merge": {
+          "route_completion": 0.48362317286005796,
+          "collision": 0.0,
+          "offroad": 0.0
+        },
+        "cutin": {
+          "route_completion": 0.4555266488667429,
+          "collision": 0.0,
+          "offroad": 0.0
+        },
+        "pedestrian": {
+          "route_completion": 0.4100309881660511,
+          "collision": 0.0,
+          "offroad": 0.0
+        },
+        "unstructured": {
+          "route_completion": 0.4836779497459779,
+          "collision": 0.0,
+          "offroad": 1.0
+        }
+      }
+    },
+    "bc": {
+      "route_completion": 0.39669814231465544,
+      "collision": 0.0,
+      "offroad": 1.0,
+      "jerk": 0.10790814266850553,
+      "progress": 71.40566561663798,
+      "per_scenario": {
+        "cruise": {
+          "route_completion": 0.3947281280808217,
+          "collision": 0.0,
+          "offroad": 1.0
+        },
+        "merge": {
+          "route_completion": 0.39731398114197103,
+          "collision": 0.0,
+          "offroad": 1.0
+        },
+        "cutin": {
+          "route_completion": 0.3995278449157015,
+          "collision": 0.0,
+          "offroad": 1.0
+        },
+        "pedestrian": {
+          "route_completion": 0.3948854067146233,
+          "collision": 0.0,
+          "offroad": 1.0
+        },
+        "unstructured": {
+          "route_completion": 0.3970353507201595,
+          "collision": 0.0,
+          "offroad": 1.0
+        }
+      }
+    },
+    "cem": {
+      "route_completion": 0.16531449882753918,
+      "collision": 0.0,
+      "offroad": 1.0,
+      "jerk": 3.9203283134749265,
+      "progress": 26.097747284846395,
+      "per_scenario": {
+        "cruise": {
+          "route_completion": 0.1883398919365436,
+          "collision": 0.0,
+          "offroad": 1.0
+        },
+        "merge": {
+          "route_completion": 0.0,
+          "collision": 0.0,
+          "offroad": 1.0
+        },
+        "cutin": {
+          "route_completion": 0.008558516932873456,
+          "collision": 0.0,
+          "offroad": 1.0
+        },
+        "pedestrian": {
+          "route_completion": 0.3645421395496307,
+          "collision": 0.0,
+          "offroad": 1.0
+        },
+        "unstructured": {
+          "route_completion": 0.2651319457186482,
+          "collision": 0.0,
+          "offroad": 1.0
+        }
+      }
+    },
+    "dreamer": {
+      "route_completion": 0.02503570267171127,
+      "collision": 0.0,
+      "offroad": 1.0,
+      "jerk": 0.2502223948637644,
+      "progress": 4.506426480908027,
+      "per_scenario": {
+        "cruise": {
+          "route_completion": 0.024923544501555716,
+          "collision": 0.0,
+          "offroad": 1.0
+        },
+        "merge": {
+          "route_completion": 0.025117230082780294,
+          "collision": 0.0,
+          "offroad": 1.0
+        },
+        "cutin": {
+          "route_completion": 0.02490505792436655,
+          "collision": 0.0,
+          "offroad": 1.0
+        },
+        "pedestrian": {
+          "route_completion": 0.025308073964401268,
+          "collision": 0.0,
+          "offroad": 1.0
+        },
+        "unstructured": {
+          "route_completion": 0.024924606885452505,
+          "collision": 0.0,
+          "offroad": 1.0
+        }
+      }
+    }
+  },
+  "student": {
+    "route_completion": 0.35264716985320393,
+    "collision": 0.0,
+    "offroad": 0.7,
+    "jerk": 0.025688576574126883,
+    "progress": 63.47649057357671,
+    "per_scenario": {
+      "cruise": {
+        "route_completion": 0.3510230644482104,
+        "collision": 0.0,
+        "offroad": 0.5
+      },
+      "merge": {
+        "route_completion": 0.35858468324757464,
+        "collision": 0.0,
+        "offroad": 1.0
+      },
+      "cutin": {
+        "route_completion": 0.3585926283879696,
+        "collision": 0.0,
+        "offroad": 1.0
+      },
+      "pedestrian": {
+        "route_completion": 0.34546365730383355,
+        "collision": 0.0,
+        "offroad": 0.5
+      },
+      "unstructured": {
+        "route_completion": 0.3495718158784317,
+        "collision": 0.0,
+        "offroad": 0.5
+      }
+    }
+  },
+  "latency": {
+    "error": "No module named 'onnxruntime'"
+  },
+  "distill_loss": 0.00011990909115411341,
+  "imagine_loss": 0.05628667399287224,
+  "seconds": 29.3767249584198
+}
